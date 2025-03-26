@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dhananjay Kumar - Geophysicist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <h1>Dhananjay Kumar</h1>
-      <p>Geophysicist | Seismic Analysis Expert</p>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <h1>Dhananjay Kumar</h1>
+      </div>
       <nav>
-        <ul>
+        <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -25,77 +27,74 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="container">
-      <h2>Welcome to My Professional World</h2>
-      <p>Delivering Excellence in Geophysics and Seismic Analysis</p>
+    <div class="container hero-content">
+      <h2 class="hero-title">Transforming Geophysics with Innovation</h2>
+      <p class="hero-subtitle">Advanced Seismic Analysis and Reservoir Characterization</p>
+      <a href="#contact" class="hero-button">Get In Touch</a>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <div class="info">
-        <div class="text">
-          <p>
-            With a PhD in Geophysics from The University of Texas at Austin and an MS from IIT Kharagpur, I have dedicated my career to advancing seismic analysis, reservoir characterization, and geophysical research. Over two decades in the industry have allowed me to work with renowned organizations such as BP, Chevron, and Reliance while also contributing to academia and professional societies.
-          </p>
-          <a href="images/kumar_resume.pdf" class="button">Download Resume</a>
-        </div>
-        <div class="image">
-          <img src="images/Dhananjay_2022.jpg" alt="Dhananjay Kumar">
-        </div>
+  <section id="about" class="section about-section">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          With a PhD from The University of Texas at Austin and an MS from IIT Kharagpur, I bring over two decades of experience in seismic analysis and geophysical research. I have collaborated with leading organizations like BP, Chevron, and Reliance and continue to contribute to both industry and academia.
+        </p>
+        <a href="images/kumar_resume.pdf" class="button">Download Resume</a>
+      </div>
+      <div class="about-image">
+        <img src="images/Dhananjay_2022.jpg" alt="Dhananjay Kumar">
       </div>
     </div>
   </section>
 
   <!-- Education Section -->
-  <section id="education">
+  <section id="education" class="section education-section">
     <div class="container">
       <h2>Education</h2>
-      <ul>
+      <ul class="education-list">
         <li>
-          <strong>PhD, Geophysics (2005)</strong> – The University of Texas at Austin (Institute for Geophysics)
-          <br>
-          <em>Dissertation:</em> Analysis of multicomponent seismic data from the Hydrate Ridge, offshore Oregon (<a href="https://repositories.lib.utexas.edu/handle/2152/1598">[pdf]</a>)
+          <strong>PhD, Geophysics (2005)</strong><br>
+          The University of Texas at Austin (Institute for Geophysics)<br>
+          <span class="small-text">Dissertation: Analysis of multicomponent seismic data from the Hydrate Ridge, offshore Oregon (<a href="https://repositories.lib.utexas.edu/handle/2152/1598">[pdf]</a>)</span>
         </li>
         <li>
-          <strong>MS, Expl. Geophysics (2000)</strong> – Indian Institute of Technology Kharagpur
-          <br>
-          <em>Dissertation:</em> Three-dimensional forward modeling and inversion of magnetotellurics data
+          <strong>MS, Expl. Geophysics (2000)</strong><br>
+          Indian Institute of Technology Kharagpur<br>
+          <span class="small-text">Dissertation: Three-dimensional forward modeling and inversion of magnetotellurics data</span>
         </li>
       </ul>
     </div>
   </section>
 
   <!-- Experience Section -->
-  <section id="experience">
+  <section id="experience" class="section experience-section">
     <div class="container">
       <h2>Professional Experience</h2>
-      <ul>
+      <ul class="experience-list">
         <li><strong>BP</strong> – Upstream Technology, Seismic Analyst, Houston (Since March 2012)</li>
-        <li><strong>Chevron</strong> – Various roles as Geophysicist (March 2005 - March 2012)</li>
+        <li><strong>Chevron</strong> – Various Geophysicist roles (March 2005 - March 2012)</li>
         <li><strong>Reliance</strong> – Geophysicist, Oil and Gas Division, Mumbai (June 2000 - August 2001)</li>
       </ul>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact">
+  <section id="contact" class="section contact-section">
     <div class="container">
       <h2>Contact</h2>
-      <p>
-        For collaborations, speaking engagements, or consultation, please email me at 
-        <a href="mailto:dhananjaykumar@gmail.com">dhananjaykumar@gmail.com</a>.
-      </p>
+      <p>For collaborations, speaking engagements, or consultation:</p>
+      <p><a href="mailto:dhananjaykumar@gmail.com" class="contact-email">dhananjaykumar@gmail.com</a></p>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <div class="container">
       <p>&copy; 2024 Dhananjay Kumar. All Rights Reserved.</p>
-      <p>Last modified: 20 May 2024</p>
+      <p class="last-modified">Last modified: 20 May 2024</p>
     </div>
   </footer>
 </body>
