@@ -332,3 +332,23 @@ body {
     font-size: 1.2rem;
   }
 }
+
+/* Back to Home Button */
+.back-home {
+  display: inline-block;
+  background: #fff;
+  color: #006697;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s, transform 0.3s;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.back-home:hover {
+  background: #f0f0f0;
+  color: #004f6e;
+  transform: translateY(-2px);
+}
+
