@@ -65,14 +65,16 @@ body {
   background: linear-gradient(135deg, #006697 0%, #00aaff 100%);
   color: #fff;
   height: 100vh;
-  padding-top: 80px; /* To account for fixed header */
+  padding-top: 80px; /* To account for the fixed header */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.2);
   background-size: 300% 300%;
   animation: gradientAnimation 6s ease infinite;
+}
+
 }
 @keyframes gradientAnimation {
   0% { background-position: 0% 50%; }
