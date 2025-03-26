@@ -209,6 +209,17 @@ body {
   color: #004f6e;
 }
 
+.contact-email {
+  display: flex;
+  align-items: center;
+}
+.contact-email svg {
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+.contact-email:hover svg {
+  transform: scale(1.1);
+}
 /* Footer */
 .footer {
   background: #333;
