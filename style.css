@@ -84,7 +84,7 @@ body {
 /* Hero Section */
 .hero {
   /* Use a single gradient definition for smooth animation */
-  background: linear-gradient(45deg, #ff6b6b, #f7b7a3, #ff6b6b);
+  background: linear-gradient(45deg, #6b8fff, #a3c9f7, #6b8fff);
   background-size: 400% 400%;
   animation: gradientAnimation 6s ease infinite;
   color: #fff;
