@@ -88,12 +88,12 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(45deg, #006697, #00aaff, #004f6e); /* Gradient with shades of blue */
+  background: linear-gradient(45deg, #006697, #00aaff, #004f6e);
   background-size: 400% 400%;
-  animation: gradientAnimation 12s ease infinite; /* Longer duration for smoother effect */
+  animation: gradientAnimation 12s ease infinite;
   color: #fff;
   height: 100vh;
-  padding-top: 80px; /* To account for the fixed header */
+  padding-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,6 +238,16 @@ body {
   color: #555;
 }
 
+/* Teaching Section */
+.teaching-section {
+  background: #f8f8f8;
+}
+
+/* Publications Section */
+.publications-section {
+  background: #f8f8f8;
+}
+
 /* Contact Section */
 .contact-section {
   text-align: center;
@@ -297,6 +307,14 @@ body {
   background: #f4f4f4;
 }
 
+#teaching {
+  background: #f8f8f8;
+}
+
+#publications {
+  background: #f8f8f8;
+}
+
 #contact {
   background: #e0e0e0;
 }
@@ -351,4 +369,3 @@ body {
   color: #004f6e;
   transform: translateY(-2px);
 }
-
