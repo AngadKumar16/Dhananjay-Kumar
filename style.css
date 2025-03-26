@@ -265,6 +265,21 @@ body {
   }
 }
 
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, #ff6b6b, #f7b7a3);
+  }
+  50% {
+    background: linear-gradient(45deg, #f7b7a3, #ff6b6b);
+  }
+  100% {
+    background: linear-gradient(45deg, #ff6b6b, #f7b7a3);
+  }
+}
+
+.element {
+  animation: gradientAnimation 6s ease infinite;
+}
 /* Section Background Colors */
 #about { background: #f8f9fa; }
 #education { background: #eef1f4; }
