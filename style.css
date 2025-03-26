@@ -106,6 +106,18 @@ body {
   box-shadow: 0 0 0 4px rgba(0, 169, 255, 0.5); /* Focus state */
 }
 
+.hero {
+  background: linear-gradient(135deg, #006697 0%, #00aaff 100%);
+  background-size: 300% 300%;
+  animation: gradientAnimation 6s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 /* Section Base */
 .section {
   padding: 80px 0;
@@ -264,3 +276,27 @@ body {
     font-size: 1.2rem;
   }
 }
+
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #006697;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.scroll-to-top:hover {
+  background-color: #00aaff;
+}
+
+window.onscroll = () => {
+  document.querySelector('.scroll-to-top').style.display = window.scrollY > 300 ? 'block' : 'none';
+};
+
