@@ -265,24 +265,6 @@ body {
   }
 }
 
-/* Scroll-to-Top Button (remains unchanged, if used elsewhere) */
-.scroll-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #006697;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: none;
-}
-.scroll-to-top:hover {
-  background-color: #00aaff;
-}
-
 /* Section Background Colors */
 #about { background: #f8f9fa; }
 #education { background: #eef1f4; }
