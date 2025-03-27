@@ -323,26 +323,23 @@ body {
   background: #d9edf7;
 }
 
-.title-kinda {
-  color: #ffffff;
+.title-kinda a { 
+    text-decoration: none; 
+    color: #fff; /* White */ 
+    font-weight: 600; 
+    transition: color 0.3s, transform 0.3s; 
+    cursor: default; /* Makes it not look like a hyperlink */
+} 
+
+.title-kinda a:hover { 
+    color: #ff0000; /* Red on hover */ 
+    transform: translateY(-1px); /* Moves up slightly */
+} 
+
+.title-kinda a:active { 
+    transform: translateY(2px); /* Moves down slightly on click */
 }
 
-.title-kinda:hover {
-  transform: translateY(-2px);
-  text-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-}
-
-.title-kinda a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  transition: color 0.3s, transform 0.3s;
-}
-
-.title-kinda a:hover {
-  color: #ff4f6d;
-  transform: translateY(-2px);
-}
 /* Responsive */
 @media (max-width: 768px) {
   .header-container {
