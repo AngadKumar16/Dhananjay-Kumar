@@ -332,6 +332,17 @@ body {
   text-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
+.title-kinda a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.title-kinda a:hover {
+  color: #ff4f6d;
+  transform: translateY(-2px);
+}
 /* Responsive */
 @media (max-width: 768px) {
   .header-container {
