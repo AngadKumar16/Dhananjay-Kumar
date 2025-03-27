@@ -333,11 +333,11 @@ body {
 
 .title-kinda a:hover { 
     color: #ff0000; /* Red on hover */ 
-    transform: translateY(-1px); /* Moves up slightly */
+    transform: translateY(3px); /* Moves up slightly */
 } 
 
 .title-kinda a:active { 
-    transform: translateY(2px); /* Moves down slightly on click */
+    transform: translateY(5px); /* Moves down slightly on click */
 }
 
 /* Responsive */
@@ -391,5 +391,5 @@ body {
 
 .title-text:hover {
   text-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  transform: translateY(-1px);
+  transform: translateY(5px);
 }
