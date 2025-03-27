@@ -369,3 +369,9 @@ body {
   color: #004f6e;
   transform: translateY(-2px);
 }
+
+
+
+.title-text:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
