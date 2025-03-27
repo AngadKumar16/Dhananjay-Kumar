@@ -394,4 +394,5 @@ body {
 
 .title-text:hover {
   text-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
 }
