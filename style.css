@@ -322,7 +322,15 @@ body {
 #resources {
   background: #d9edf7;
 }
-  
+
+.title-kinda {
+  color: #ffffff;
+}
+
+.title-kinda:hover {
+  transform: translateY(-2px);
+  text-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -374,5 +382,5 @@ body {
 
 
 .title-text:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
